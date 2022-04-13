@@ -147,7 +147,7 @@ function drawCols(){
 					//par[window[custom + b].end].style.background = "red";
 
 					par[window[custom + b].end].style.opacity = "0";
-					par[window[custom + b].end].style.transition = "opacity 0.5s linear 0.3s, background 0s linear";
+					par[window[custom + b].end].style.transition = "opacity 0.5s linear 0.6s, background 0s linear";
 
 					window[custom + b].end+=countCols;
 					//par[window[custom + b].end].style.background = "yellow";
