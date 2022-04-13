@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font: 14px/1 'Ustroke Regular', sans-serif;
+	color: #32CD32;
+	background: #000;
+}
+
+#block{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /*единица fr определяет, сколько столбцов или строк будет в сетке, а их размеры 
+	высчитываются автоматически; при этом заполняется вся сетка*/
+	grid-template-rows: 1fr 1fr;
+}
